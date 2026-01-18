@@ -22,6 +22,11 @@
   </div>
 
   <div>
+    <%= form.label :status, style: "display: block" %>
+    <%= form.select :status, OtegaruArticle::Article.statuses.keys %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>

@@ -54,7 +54,7 @@ module OtegaruArticle
 
       # Only allow a list of trusted parameters through.
       def article_params
-        params.expect(article: [ :title, :body ])
+        params.expect(article: [ :title, :body, :status ])
       end
   end
 end
