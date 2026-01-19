@@ -1,4 +1,4 @@
-module ArticleCore
+module ArticleRecordable
   extend ActiveSupport::Concern
 
   included do

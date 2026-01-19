@@ -1,5 +1,5 @@
 module OtegaruArticle
   class Article < ApplicationRecord
-    include ArticleCore
+    include ArticleRecordable
   end
 end
